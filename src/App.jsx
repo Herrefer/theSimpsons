@@ -3,6 +3,7 @@ import "./App.css";
 import { Button } from "react-bootstrap";
 import ComponenteFrase from "./components/ComponenteFrase";
 import { useEffect, useState } from "react";
+import logoSimpsons from "../assets/The_Simpsons_yellow_logo.svg"
 
 function App() {
   const [personaje, setPersonaje] = useState({});
@@ -23,7 +24,7 @@ function App() {
       <div className="text-center mb-1">
         <img
           className="img-fluid simponsLogo"
-          src="/The_Simpsons_yellow_logo.svg"
+          src={logoSimpsons}
           alt="logo The Simpsons"
         />
       </div>
