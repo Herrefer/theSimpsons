@@ -23,7 +23,7 @@ function App() {
       <div className="text-center mb-1">
         <img
           className="img-fluid simponsLogo"
-          src="../assets/The_Simpsons_yellow_logo.svg"
+          src="/The_Simpsons_yellow_logo.svg"
           alt="logo The Simpsons"
         />
       </div>
